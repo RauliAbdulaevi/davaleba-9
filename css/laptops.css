@@ -1,0 +1,43 @@
+@media(max-width: 1025px)
+{
+    .section2_article3{
+        display: none;
+    }
+
+    .section2_article{
+        width: 410px;
+    }
+    .section2{
+        margin-inline: 92px;
+    }
+}
+
+@media(max-width: 835px)
+{
+    .section2{
+        margin: 80px auto;
+    }
+    .section3_card_wraper_title{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .section3_text{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .section3_div{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .section3_card_wraper{
+        width: 100%;
+    }
+    .section3_photo_wraper{
+        flex-direction: row;
+        row-gap: 0px;
+        column-gap: 20px;
+    }
+    footer{
+        margin-top: 80px;
+    }
+}
